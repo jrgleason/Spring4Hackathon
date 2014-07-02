@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+}
+
+.main_area {
+    background-color: white;
+    min-height: 50vh;
+    max-height: 75vh;
+    padding-top: 1em;
+}
+
+.row_pad {
+    padding-top: 1em;
+}
+
+.connected {
+    display: none;
+}
+
+.connected.status {
+    color: green;
+}
+
+.disconnected.status {
+    color: red;
+}
